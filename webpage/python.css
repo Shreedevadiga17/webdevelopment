@@ -1,0 +1,52 @@
+/* python.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 70%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main img {
+    max-width: 55%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #306998; /* Python-themed blue color */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #255675;
+}
